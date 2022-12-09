@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="18" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-07T19:36:17 MST" name="LinkedinSuite" finished-at="2022-12-07T19:36:53 MST" duration-ms="35932">
+    <groups>
+    </groups>
+    <test started-at="2022-12-07T19:36:17 MST" name="LinkedinTest" finished-at="2022-12-07T19:36:53 MST" duration-ms="35932">
+      <class name="com.qa.linkedin.testcases.LinkedinSearchResultsPageTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.linkedin.testcases.LinkedinSearchResultsPageTest@5ef0d29e]" started-at="2022-12-07T19:36:28 MST" name="beforeClass" finished-at="2022-12-07T19:36:37 MST" duration-ms="9031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyLinkedinFeedPageTitleTest()[pri:1, instance:com.qa.linkedin.testcases.LinkedinSearchResultsPageTest@5ef0d29e]" started-at="2022-12-07T19:36:37 MST" name="verifyLinkedinFeedPageTitleTest" finished-at="2022-12-07T19:36:37 MST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkedinFeedPageTitleTest -->
+        <test-method signature="verifyProfileRailCardTest()[pri:2, instance:com.qa.linkedin.testcases.LinkedinSearchResultsPageTest@5ef0d29e]" started-at="2022-12-07T19:36:37 MST" name="verifyProfileRailCardTest" finished-at="2022-12-07T19:36:37 MST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProfileRailCardTest -->
+        <test-method signature="doPeopleSearchTest(java.lang.String)[pri:3, instance:com.qa.linkedin.testcases.LinkedinSearchResultsPageTest@5ef0d29e]" started-at="2022-12-07T19:36:38 MST" name="doPeopleSearchTest" data-provider="searchData" finished-at="2022-12-07T19:36:42 MST" duration-ms="4039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Haripriya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPeopleSearchTest -->
+        <test-method signature="doPeopleSearchTest(java.lang.String)[pri:3, instance:com.qa.linkedin.testcases.LinkedinSearchResultsPageTest@5ef0d29e]" started-at="2022-12-07T19:36:42 MST" name="doPeopleSearchTest" data-provider="searchData" finished-at="2022-12-07T19:36:46 MST" duration-ms="3569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[neela]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPeopleSearchTest -->
+        <test-method signature="doPeopleSearchTest(java.lang.String)[pri:3, instance:com.qa.linkedin.testcases.LinkedinSearchResultsPageTest@5ef0d29e]" started-at="2022-12-07T19:36:46 MST" name="doPeopleSearchTest" data-provider="searchData" finished-at="2022-12-07T19:36:49 MST" duration-ms="3467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rasheeda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPeopleSearchTest -->
+        <test-method signature="doPeopleSearchTest(java.lang.String)[pri:3, instance:com.qa.linkedin.testcases.LinkedinSearchResultsPageTest@5ef0d29e]" started-at="2022-12-07T19:36:49 MST" name="doPeopleSearchTest" data-provider="searchData" finished-at="2022-12-07T19:36:53 MST" duration-ms="3534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPeopleSearchTest -->
+        <test-method signature="doLogOutTest()[pri:0, instance:com.qa.linkedin.testcases.LinkedinSearchResultsPageTest@5ef0d29e]" started-at="2022-12-07T19:36:53 MST" name="doLogOutTest" finished-at="2022-12-07T19:36:53 MST" depends-on-methods="com.qa.linkedin.testcases.LinkedinSearchResultsPageTest.doPeopleSearchTest" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogOutTest -->
+      </class> <!-- com.qa.linkedin.testcases.LinkedinSearchResultsPageTest -->
+      <class name="com.qa.linkedin.testcases.LinkedinLoginPageTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.linkedin.testcases.LinkedinLoginPageTest@6ca0256d]" started-at="2022-12-07T19:36:19 MST" name="beforeClass" finished-at="2022-12-07T19:36:20 MST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyLinkedinLoginPageTitleTest()[pri:1, instance:com.qa.linkedin.testcases.LinkedinLoginPageTest@6ca0256d]" started-at="2022-12-07T19:36:20 MST" name="verifyLinkedinLoginPageTitleTest" finished-at="2022-12-07T19:36:20 MST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkedinLoginPageTitleTest -->
+        <test-method signature="verifyLinkedinSigninHeaderTest()[pri:2, instance:com.qa.linkedin.testcases.LinkedinLoginPageTest@6ca0256d]" started-at="2022-12-07T19:36:20 MST" name="verifyLinkedinSigninHeaderTest" finished-at="2022-12-07T19:36:20 MST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkedinSigninHeaderTest -->
+        <test-method signature="doLoginTest()[pri:3, instance:com.qa.linkedin.testcases.LinkedinLoginPageTest@6ca0256d]" started-at="2022-12-07T19:36:20 MST" name="doLoginTest" finished-at="2022-12-07T19:36:28 MST" duration-ms="7977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method signature="doLogOutTest()[pri:0, instance:com.qa.linkedin.testcases.LinkedinLoginPageTest@6ca0256d]" started-at="2022-12-07T19:36:28 MST" name="doLogOutTest" finished-at="2022-12-07T19:36:28 MST" depends-on-methods="com.qa.linkedin.testcases.LinkedinLoginPageTest.doLoginTest" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogOutTest -->
+      </class> <!-- com.qa.linkedin.testcases.LinkedinLoginPageTest -->
+      <class name="com.qa.linkedin.testcases.LinkedinHomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.linkedin.testcases.LinkedinHomePageTest@5ddabb18]" started-at="2022-12-07T19:36:12 MST" name="setup" finished-at="2022-12-07T19:36:17 MST" duration-ms="4974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.linkedin.testcases.LinkedinHomePageTest@5ddabb18]" started-at="2022-12-07T19:36:17 MST" name="beforeClass" finished-at="2022-12-07T19:36:17 MST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyLinkedinHomePageTitleTest()[pri:1, instance:com.qa.linkedin.testcases.LinkedinHomePageTest@5ddabb18]" started-at="2022-12-07T19:36:17 MST" name="verifyLinkedinHomePageTitleTest" finished-at="2022-12-07T19:36:17 MST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkedinHomePageTitleTest -->
+        <test-method signature="verifyLinkedinLogoTest()[pri:2, instance:com.qa.linkedin.testcases.LinkedinHomePageTest@5ddabb18]" started-at="2022-12-07T19:36:17 MST" name="verifyLinkedinLogoTest" finished-at="2022-12-07T19:36:17 MST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkedinLogoTest -->
+        <test-method signature="validateSigninLinkTest()[pri:3, instance:com.qa.linkedin.testcases.LinkedinHomePageTest@5ddabb18]" started-at="2022-12-07T19:36:17 MST" name="validateSigninLinkTest" finished-at="2022-12-07T19:36:19 MST" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSigninLinkTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.linkedin.testcases.LinkedinHomePageTest@5ddabb18]" started-at="2022-12-07T19:36:19 MST" name="afterClass" finished-at="2022-12-07T19:36:19 MST" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.linkedin.testcases.LinkedinHomePageTest@5ddabb18]" started-at="2022-12-07T19:36:53 MST" name="tearDown" finished-at="2022-12-07T19:36:54 MST" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.linkedin.testcases.LinkedinHomePageTest -->
+    </test> <!-- LinkedinTest -->
+  </suite> <!-- LinkedinSuite -->
+</testng-results>
